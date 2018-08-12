@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Operadores
-    Created on : 11/08/2018, 06:50:11 PM
+    Document   : informes
+    Created on : 12/08/2018, 06:13:46 PM
     Author     : edwar
 --%>
 
@@ -9,9 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Operadores</title>
+        <title>Informes</title>
     </head>
     <body>
-        <h1>Operadores</h1>
+        <h1>Informes</h1>
     </body>
 </html>

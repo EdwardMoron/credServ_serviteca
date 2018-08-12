@@ -15,10 +15,18 @@
         <title>Pagina Principal</title>
     </head>
     <body>
-        <br><br><br><br><br><br><br><br>
+        <br><br><br><br>
+        
+    <center>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                <img src="imagenes/iconoPrincipal.jpg" class="img-responsive">
+            </div>
+        </div>
+    </center>
 
     <center>
-        <div class="container divGris">    
+        <div class="container ">    
 
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

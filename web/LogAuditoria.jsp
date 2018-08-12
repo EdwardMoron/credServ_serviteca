@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Operadores
-    Created on : 11/08/2018, 06:50:11 PM
+    Document   : LogAuditoría
+    Created on : 12/08/2018, 06:14:57 PM
     Author     : edwar
 --%>
 
@@ -9,9 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Operadores</title>
+        <title>Auditorias</title>
     </head>
     <body>
-        <h1>Operadores</h1>
+        <h1>Log de auditorías</h1>
     </body>
 </html>
