@@ -27,38 +27,22 @@
                             <TD width="5"></TD> 
                             <TD width="*"><BR></TD></TR> 
                     </TABLE>
-                    <li><a class="navbar_item" href="Parametrizaciones.jsp">Parametrizaciones</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle navbar_item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Opciones
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Parametrizaciones.jsp">Parametrizaciones</a>
+                            <a class="dropdown-item" href="Operadores.jsp">Operadores</a>
+                            <a class="dropdown-item" href="informes.jsp">Informes</a>
+                            <a class="dropdown-item" href="LogAuditoria.jsp">Log de auditorias</a>
+                            <a class="dropdown-item" href="precios.jsp">Precios</a>
+                            <a class="dropdown-item" href="Servicios.jsp">Servicios</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Perfil</a>
+                        </div>
+                    </li>
                     <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="precios.jsp" >Precios</a></li>
-                    <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="informes.jsp" >Informes</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="Servicios.jsp" >Servicios</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="Operadores.jsp" >Operadores</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="LogAuditoria.jsp" >Log de auditorias</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
                         <TR><TD bgcolor="#000000" width="2"></TD> 
                             <TD width="5"></TD> 
                             <TD width="*"><BR></TD></TR> 

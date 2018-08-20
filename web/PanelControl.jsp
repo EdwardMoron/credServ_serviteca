@@ -27,38 +27,22 @@
                             <TD width="5"></TD> 
                             <TD width="*"><BR></TD></TR> 
                     </TABLE>
-                    <li><a class="navbar_item" href="Parametrizaciones.jsp">Parametrizaciones</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle navbar_item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Opciones
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Parametrizaciones.jsp">Parametrizaciones</a>
+                            <a class="dropdown-item" href="Operadores.jsp">Operadores</a>
+                            <a class="dropdown-item" href="informes.jsp">Informes</a>
+                            <a class="dropdown-item" href="LogAuditoria.jsp">Log de auditorias</a>
+                            <a class="dropdown-item" href="precios.jsp">Precios</a>
+                            <a class="dropdown-item" href="Servicios.jsp">Servicios</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Perfil</a>
+                        </div>
+                    </li>
                     <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="precios.jsp" >Precios</a></li>
-                    <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="informes.jsp" >Informes</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="Servicios.jsp" >Servicios</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="Operadores.jsp" >Operadores</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
-                        <TR><TD bgcolor="#000000" width="2"></TD> 
-                            <TD width="5"></TD> 
-                            <TD width="*"><BR></TD></TR> 
-                    </TABLE>
-                    <li><a class="navbar_item" href="LogAuditoria.jsp" >Log de auditorias</a></li>
-                                        <TABLE border="0" cellpadding="0" cellspacing="0" class="lineaHorizontal"> 
                         <TR><TD bgcolor="#000000" width="2"></TD> 
                             <TD width="5"></TD> 
                             <TD width="*"><BR></TD></TR> 
@@ -72,49 +56,80 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
                     <div class="card">
-                        <div class="card-header"><b>Parametrizaciones</b></div>
-                        <div class="card-body">Content</div> 
-                        <div class="card-footer">Footer</div>
+                        <div class="card-header"><center><b>Parametrizaciones</b></center></div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Modifica los servicios que presta la serviteca.</li>
+                                <li>Modifica los automores que atiende la serviteca.</li>
+                                <li>Modifica el porcentaje del descuento.</li>
+                                <li>Modifica la cantidad de servicios para el descuento.</li>
+                            </ul>
+                        </div> 
+                        <div class="card-footer ">
+                            <center>
+                                <a href="Parametrizaciones.jsp" class="botones_cards btn"><b>Ver más</b></a>
+                            </center>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="card">
-                        <div class="card-header"><b>Operadores</b></div>
+                        <div class="card-header"><center><b>Operadores</b></center></div>
                         <div class="card-body">Content</div> 
-                        <div class="card-footer">Footer</div>
+                        <div class="card-footer">
+                            <center>
+                                <a href="Operadores.jsp" class="botones_cards btn"><b>Ver más</b></a>
+                            </center>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="card">
-                        <div class="card-header"><b>Informes</b></div>
+                        <div class="card-header"><center><b>Informes</b></center></div>
                         <div class="card-body">Content</div> 
-                        <div class="card-footer">Footer</div>
+                        <div class="card-footer">
+                            <center>
+                                <a href="informes.jsp" class="botones_cards btn"><b>Ver más</b></a>
+                            </center>
+                        </div>
                     </div>
                 </div>
             </div>
             <br>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="card">
-                        <div class="card-header"><b>Log de auditorias</b></div>
+                        <div class="card-header"><center><b>Log de auditorias</b></center></div>
                         <div class="card-body">Content</div> 
-                        <div class="card-footer">Footer</div>
+                        <div class="card-footer">
+                            <center>
+                                <a href="LogAuditoria.jsp" class="botones_cards btn"><b>Ver más</b></a>
+                            </center>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="card">
-                        <div class="card-header"><b>Precios</b></div>
+                        <div class="card-header"><center><b>Precios</b></center></div>
                         <div class="card-body">Content</div> 
-                        <div class="card-footer">Footer</div>
+                        <div class="card-footer">                            
+                            <center>
+                                <a href="precios.jsp" class="botones_cards btn"><b>Ver más</b></a>
+                            </center>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="card">
-                        <div class="card-header"><b>Servicios</b></div>
+                        <div class="card-header"><center><b>Servicios</b></center></div>
                         <div class="card-body">Content</div> 
-                        <div class="card-footer"> <a href="#" class="btn btn-default" role="button">Ver más</a></div>
+                        <div class="card-footer"> 
+                            <center>
+                                <a href="Servicios.jsp" class="botones_cards btn"><b>Ver más</b></a>
+                            </center>
+                        </div>
                     </div>
                 </div>
             </div>
