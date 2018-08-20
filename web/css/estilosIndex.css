@@ -15,13 +15,22 @@ h1{
     font-family: 'Roboto',sans-serif;
 }
 
-.divGris{
 
-    background: #eee;
+.carousel-position{
+    bottom: 200px;
+}
+@media screen and (max-width:500px){
+    .carousel-position{
+        display: none;
+    }
+    
     
 }
 
-
 div>center>a{
     width: 200px;
+}
+
+.logo{
+
 }
